@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+   background-color:#795a8d;
+    color: white;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    margin: 0px;
+}
+
+
+header{
+     text-align: center;
+     background-image: linear-gradient(to bottom, #35243f, #795a8d);
+     padding-top: 50px;
+}
+
+header > h1{
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav >a{
+    text-decoration: none;
+    color: #35243f;
+    font-size: 2em;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav >a:hover{
+    background-color: #35243f;
+    color: #795a8d;
+}
+
+
+
+
+
+
+
